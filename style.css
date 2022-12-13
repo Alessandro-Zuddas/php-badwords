@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(47, 42, 36);
+}
+
+.container-two{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    padding: .625rem .625rem;
+    background-color: beige;
+    border: 1px solid white;
+    border-radius: .625rem;
+}
+
+h1{
+    margin-bottom: .9375rem;
+}
+
+p{
+    font-size: 1.5625rem;
+    margin-bottom: .9375rem;
+}
+
+strong{
+    font-size: 1.25rem;
+}
